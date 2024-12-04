@@ -1,0 +1,1109 @@
+			{
+				"properties": [
+					{
+						"software-author": {
+							"author-name": "Ezechiel Kalengya Ezpk",
+							"author-email": "ezechielkalengya@gmail.com"
+						}
+					},
+					{
+						"software-lang": {
+							"lang": "eng-lang"
+						}
+					},
+					{
+						"software-name": {
+							"fr-lang": "CNS Software",
+							"eng-lang": "CNS Software",
+							"ar-lang": "CNS Software",
+							"pt-lang": "CNS Software"
+						}
+					},
+					{
+						"software-short-name": {
+							"fr-lang": "CNS",
+							"eng-lang": "CNS",
+							"ar-lang": "CNS",
+							"pt-lang": "CNS"
+						}
+					},
+					{
+						"content-event-title": {
+							"fr-lang": "Congrès des aires protégées de l'UICN en Afrique (APAC)",
+							"eng-lang": "IUCN Africa Protected Areas Congress (APAC)",
+							"ar-lang": "مؤتمر المناطق المحمية في إفريقيا IUCN (APAC)",
+							"pt-lang": "Congresso de Áreas Protegidas da IUCN África (APAC)"
+						}
+					},
+					{
+						"content-event-date": {
+							"fr-lang": "7 - 12 Mars 2022",
+							"eng-lang": "7 - 12 March 2022",
+							"ar-lang": "7-12 مارس 2022",
+							"pt-lang": "7 a 12 de março de 2022"
+						}
+					},
+					{
+						"content-discount-inperson-1": {
+							"fr-lang": "Tarif réduit lève-tôt valable jusqu'au 31 décembre 2021 450 $ du 1er janvier 2022 au 5 mars 2022",
+							"eng-lang": "Early bird discounted rate valid till 31st December 2021 <br> $450 from 1st January 2022 - 5th March 2022",
+							"ar-lang": "سعر مخفض للطيور المبكرة صالح حتى 31 ديسمبر 2021 <br> 450 دولارًا أمريكيًا من 1 يناير 2022 - 5 مارس 2022",
+							"pt-lang": "Taxa com desconto para madrugadores válida até 31 de dezembro de 2021 <br> US $ 450 de 1º de janeiro de 2022 a 5 de março de 2022"
+						}
+					},
+					{
+						"content-discount-inperson-2": {
+							"fr-lang": "Tarif réduit Early Bird valable jusqu'au 31 décembre 2021 <br> 600 $ du 1er janvier 2022 au 5 mars 2022",
+							"eng-lang": "Early bird discounted rate valid till 31st December 2021 <br> $600 from 1st January 2022 - 5th March 2022",
+							"ar-lang": "سعر مخفض للطيور المبكرة صالح حتى 31 ديسمبر 2021 - 600 دولار أمريكي من 1 يناير 2022 - 5 مارس 2022",
+							"pt-lang": "Taxa de desconto antecipada válida até 31 de dezembro de 2021 <br> US $ 600 de 1º de janeiro de 2022 a 5 de março de 2022"
+						}
+					},
+					{
+						"content-discount-inperson-3": {
+							"fr-lang": "Tarif réduit Early Bird valable jusqu'au 31 décembre 2021 <br> 200 $ du 1er janvier 2022 au 5 mars 2022",
+							"eng-lang": "Early bird discounted rate valid till 31st December 2021 <br> $200 from 1st January 2022 - 5th March 2022",
+							"ar-lang": "سعر مخفض للطيور المبكرة صالح حتى 31 ديسمبر 2021 <br> 200 دولار أمريكي من 1 يناير 2022 - 5 مارس 2022",
+							"pt-lang": "Taxa de desconto antecipada válida até 31 de dezembro de 2021 <br> US $ 200 de 1º de janeiro de 2022 a 5 de março de 2022"
+						}
+					},
+					{
+						"content-discount-inperson-4": {
+							"fr-lang": "Les médias locaux et internationaux sont invités à assister au congrès. <br> Faites votre demande d'accréditation média ici.",
+							"eng-lang": "Local & international media are invited to attend the congress. <br> Apply for media accreditation here.",
+							"ar-lang": "وسائل الإعلام المحلية والدولية مدعوة لحضور المؤتمر. <br> قدم هنا للحصول على اعتماد وسائل الإعلام.",
+							"pt-lang": "A mídia local e internacional está convidada a participar da conferência. <br> Inscreva-se aqui para credenciamento de mídia."
+						}
+					},
+					{
+						"content-discount-inperson-5": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"content-discount-inperson-6": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"content-discount-inperson-7": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"content-discount-virtual-1": {
+							"fr-lang": "Tarif réduit lève-tôt valable jusqu'au 31 décembre 2021 <br> 150 $ du 1er janvier 2022 au 5 mars 2022",
+							"eng-lang": "Early bird discounted rate valid till 31st December 2021 <br> $150 from 1st January 2022 - 5th March 2022",
+							"ar-lang": "سعر مخفض للطيور المبكرة صالح حتى 31 ديسمبر 2021 <br> 150 دولارًا أمريكيًا من 1 يناير 2022 - 5 مارس 2022",
+							"pt-lang": "Taxa com desconto para madrugadores válida até 31 de dezembro de 2021 <br> US $ 150 de 1º de janeiro de 2022 a 5 de março de 2022"
+						}
+					},
+					{
+						"content-discount-virtual-2": {
+							"fr-lang": "Tarif réduit Early Bird valable jusqu'au 31 décembre 2021 <br> 150 $ du 1er janvier 2022 au 5 mars 2022",
+							"eng-lang": "Early bird discounted rate valid till 31st December 2021 <br> $150 from 1st January 2022 - 5th March 2022",
+							"ar-lang": "سعر مخفض للطيور المبكرة صالح حتى 31 ديسمبر 2021 - 150 دولار أمريكي من 1 يناير 2022 - 5 مارس 2022",
+							"pt-lang": "Taxa de desconto antecipada válida até 31 de dezembro de 2021 <br> US $ 150 de 1º de janeiro de 2022 a 5 de março de 2022"
+						}
+					},
+					{
+						"content-discount-virtual-3": {
+							"fr-lang": "Tarif réduit Early Bird valable jusqu'au 31 décembre 2021 <br> 150 $ du 1er janvier 2022 au 5 mars 2022",
+							"eng-lang": "Early bird discounted rate valid till 31st December 2021 <br> $150 from 1st January 2022 - 5th March 2022",
+							"ar-lang": "سعر مخفض للطيور المبكرة صالح حتى 31 ديسمبر 2021 <br> 150 دولار أمريكي من 1 يناير 2022 - 5 مارس 2022",
+							"pt-lang": "Taxa de desconto antecipada válida até 31 de dezembro de 2021 <br> US $ 150 de 1º de janeiro de 2022 a 5 de março de 2022"
+						}
+					},
+					{
+						"content-discount-virtual-4": {
+							"fr-lang": "Les médias locaux et internationaux sont invités à assister au congrès. <br> Faites votre demande d'accréditation média ici.",
+							"eng-lang": "Local & international media are invited to attend the congress. <br> Apply for media accreditation here.",
+							"ar-lang": "وسائل الإعلام المحلية والدولية مدعوة لحضور المؤتمر. <br> قدم هنا للحصول على اعتماد وسائل الإعلام.",
+							"pt-lang": "A mídia local e internacional está convidada a participar da conferência. <br> Inscreva-se aqui para credenciamento de mídia."
+						}
+					},
+					{
+						"content-discount-virtual-5": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"content-discount-virtual-6": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"content-discount-virtual-7": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"dashboard": {
+							"fr-lang": "Accueil",
+							"eng-lang": "Dashboard",
+							"ar-lang": "لوحة القيادة",
+							"pt-lang": "Painel"
+						}
+					},
+					{
+						"home": {
+							"fr-lang": "Accueil",
+							"eng-lang": "Home",
+							"ar-lang": "الصفحة الرئيسية",
+							"pt-lang": "Casa"
+						}
+					},
+					{
+						"contact-us": {
+							"fr-lang": "Nous contacter",
+							"eng-lang": "Contact Us",
+							"ar-lang": "اتصل بنا",
+							"pt-lang": "Contato"
+						}
+					},
+					{
+						"about": {
+							"fr-lang": "À propos",
+							"eng-lang": "About",
+							"ar-lang": "معلومات عنا",
+							"pt-lang": "Sobre nós"
+						}
+					},
+					{
+						"program": {
+							"fr-lang": "Programme",
+							"eng-lang": "Program",
+							"ar-lang": "برنامج",
+							"pt-lang": "Programa"
+						}
+					},
+					{
+						"call-for-proposals": {
+							"fr-lang": "APPEL À PROPOSITIONS",
+							"eng-lang": "CALL FOR PROPOSALS",
+							"ar-lang": "دعوة لتقديم العروض",
+							"pt-lang": "CONVITE PARA PROPOSTAS"
+						}
+					},
+					{
+						"registration": {
+							"fr-lang": "ENREGISTREMENT",
+							"eng-lang": "REGISTRATION",
+							"ar-lang": "التسجيل",
+							"pt-lang": "CADASTRO"
+						}
+					},
+					{
+						"our-partners": {
+							"fr-lang": "NOS PARTENAIRES",
+							"eng-lang": "OUR PARTNERS",
+							"ar-lang": "شركاؤنا",
+							"pt-lang": "NOSSOS PARCEIROS"
+						}
+					},
+					{
+						"sponsorship": {
+							"fr-lang": "PARRAINAGE",
+							"eng-lang": "SPONSORSHIP",
+							"ar-lang": "رعاية",
+							"pt-lang": "PATROCÍNIO"
+						}
+					},
+					{
+						"pay-using-bank-transfer": {
+							"fr-lang": "Payer par virement bancaire",
+							"eng-lang": "Pay using bank transfer",
+							"ar-lang": "ادفع باستخدام التحويل المصرفي",
+							"pt-lang": "Pague por transferência bancária"
+						}
+					},
+					{
+						"click-to-pay-with-one-of-services-listed-bellow": {
+							"fr-lang": "Cliquez pour payer avec l'un des services énumérés ci-dessous",
+							"eng-lang": "Click to pay with one of  services listed  bellow",
+							"ar-lang": "انقر للدفع بإحدى الخدمات المدرجة أدناه",
+							"pt-lang": "Clique para pagar com um dos serviços listados abaixo"
+						}
+					},
+					{
+						"please-select-a-method-of-payment-below": {
+							"fr-lang": "Veuillez sélectionner un mode de paiement ci-dessous",
+							"eng-lang": "Please select a method of payment below",
+							"ar-lang": "الرجاء تحديد طريقة الدفع أدناه",
+							"pt-lang": "Selecione um método de pagamento abaixo"
+						}
+					},
+					{
+						"register-here": {
+							"fr-lang": "Inscrivez-vous ici",
+							"eng-lang": "Register here",
+							"ar-lang": "سجل هنا",
+							"pt-lang": "Registre-se aqui"
+						}
+					},
+					{
+						"not-registered-yet?": {
+							"fr-lang": "Pas encore inscrit?",
+							"eng-lang": "Not registered yet?",
+							"ar-lang": "لم يتم تسجيلة بعد؟",
+							"pt-lang": "não registrado ainda?"
+						}
+					},
+					{
+						"forgot-password?": {
+							"fr-lang": "Mot de passe oublié?",
+							"eng-lang": "Forgot password?",
+							"ar-lang": "هل نسيت كلمة السر؟",
+							"pt-lang": "Esqueceu sua senha?"
+						}
+					},
+					{
+						"remember-me": {
+							"fr-lang": "Souviens-toi de moi",
+							"eng-lang": "Remember me",
+							"ar-lang": "تذكرنى",
+							"pt-lang": "Lembre de mim"
+						}
+					},
+					{
+						"username": {
+							"fr-lang": "username",
+							"eng-lang": "Username",
+							"ar-lang": "اسم االمستخدم",
+							"pt-lang": "nome do usuário"
+						}
+					},
+					{
+						"login-to-join-the-event": {
+							"fr-lang": "Connectez-vous pour rejoindre l'événement",
+							"eng-lang": "Login to join the event",
+							"ar-lang": "تسجيل الدخول للانضمام إلى الحدث",
+							"pt-lang": "Faça login para participar do evento"
+						}
+					},
+					{
+						"login": {
+							"fr-lang": "Connexion",
+							"eng-lang": "Login",
+							"ar-lang": "تسجيل الدخول",
+							"pt-lang": "Conecte-se"
+						}
+					},
+					{
+						"logout": {
+							"fr-lang": "Déconnexion",
+							"eng-lang": "Logout",
+							"ar-lang": "تسجيل خروج",
+							"pt-lang": "Sair"
+						}
+					},
+					{
+						"content-inperson-attendance-registration": {
+							"fr-lang": "Veuillez sélectionner la catégorie appropriée pour assister en personne",
+							"eng-lang": "Please select the appropriate category to attend in person",
+							"ar-lang": "يرجى تحديد الفئة المناسبة للحضور شخصيًا",
+							"pt-lang": "Selecione a categoria apropriada para participar pessoalmente"
+						}
+					},
+					{
+						"content-in-person-attendance-registration": {
+							"fr-lang": "Veuillez sélectionner la catégorie appropriée pour assister en personne",
+							"eng-lang": "Please select the appropriate category to attend in person",
+							"ar-lang": "يرجى تحديد الفئة المناسبة للحضور شخصيًا",
+							"pt-lang": "Selecione a categoria apropriada para participar pessoalmente"
+						}
+					},
+					{
+						"content-virtual-attendance-registration": {
+							"fr-lang": "Veuillez sélectionner la catégorie appropriée pour participer virtuellement",
+							"eng-lang": "Please select the appropriate category to participate virtually",
+							"ar-lang": "الرجاء تحديد الفئة المناسبة للمشاركة افتراضيًا",
+							"pt-lang": "Selecione a categoria apropriada para participar virtualmente"
+						}
+					},
+					{
+						"content-africa-based-participants": {
+							"fr-lang": "Participants basés en Afrique",
+							"eng-lang": "Africa based participants",
+							"ar-lang": "المشاركون في أفريقيا",
+							"pt-lang": "Participantes baseados na África"
+						}
+					},
+					{
+						"content-non-africa-based-participants": {
+							"fr-lang": "Participants non basés en Afrique",
+							"eng-lang": "Non-Africa based participants",
+							"ar-lang": "المشاركون من خارج أفريقيا",
+							"pt-lang": "Participantes não residentes na África"
+						}
+					},
+					{
+						"content-students-/-youth-participants": {
+							"fr-lang": "Étudiants / Jeunes participants",
+							"eng-lang": "Students / Youth participants",
+							"ar-lang": "الطلاب / الشباب المشاركين",
+							"pt-lang": "Alunos / jovens participantes"
+						}
+					},
+					{
+						"content-students-youth-participants": {
+							"fr-lang": "Étudiants / Jeunes participants",
+							"eng-lang": "Students / Youth participants",
+							"ar-lang": "الطلاب / الشباب المشاركين",
+							"pt-lang": "Alunos / jovens participantes"
+						}
+					},
+					{
+						"content-early-bird": {
+							"fr-lang": "Lève tôt",
+							"eng-lang": "Early Bird",
+							"ar-lang": "سريع البديهة",
+							"pt-lang": "Madrugador"
+						}
+					},
+					{
+						"standard": {
+							"fr-lang": "Standard",
+							"eng-lang": "Standard",
+							"ar-lang": "اساسي",
+							"pt-lang": "Padrão"
+						}
+					},
+					{
+						"early-bird": {
+							"fr-lang": "Lève tôt",
+							"eng-lang": "Early Bird",
+							"ar-lang": "سريع البديهة",
+							"pt-lang": "Madrugador"
+						}
+					},
+					{
+						"in-person": {
+							"fr-lang": "En personne",
+							"eng-lang": "In-person",
+							"ar-lang": "شخصيا",
+							"pt-lang": "Em pessoa"
+						}
+					},
+					{
+						"virtual": {
+							"fr-lang": "Virtuel",
+							"eng-lang": "Virtual",
+							"ar-lang": "افتراضية",
+							"pt-lang": "Virtual"
+						}
+					},
+					{
+						"content-standard": {
+							"fr-lang": "Standard",
+							"eng-lang": "Standard",
+							"ar-lang": "اساسي",
+							"pt-lang": "Padrão"
+						}
+					},
+					{
+						"apply": {
+							"fr-lang": "Appliquer",
+							"eng-lang": "Apply",
+							"ar-lang": "تطبيق",
+							"pt-lang": "Aplicar"
+						}
+					},
+					{
+						"register": {
+							"fr-lang": "S'inscrire",
+							"eng-lang": "Register",
+							"ar-lang": "يسجل",
+							"pt-lang": "Registro"
+						}
+					},
+					{
+						"discounted-rate": {
+							"fr-lang": "tarif réduit",
+							"eng-lang": "discounted rate",
+							"ar-lang": "الحسم",
+							"pt-lang": "tarifa com desconto"
+						}
+					},
+					{
+						"valid": {
+							"fr-lang": "valide",
+							"eng-lang": "valid",
+							"ar-lang": "صالح",
+							"pt-lang": "válido"
+						}
+					},
+					{
+						"till": {
+							"fr-lang": "jusqu'au",
+							"eng-lang": "till",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"all-fields-are-mendatory": {
+							"fr-lang": "Tous les champs * sont obligatoires",
+							"eng-lang": "All * fields are mandatory",
+							"ar-lang": "كل الحقول إلزامية",
+							"pt-lang": "Todos os campos * são obrigatórios"
+						}
+					},
+					{
+						"contact-information": {
+							"fr-lang": "INFORMATIONS DE CONTACT",
+							"eng-lang": "CONTACT INFORMATION",
+							"ar-lang": "معلومات للتواصل",
+							"pt-lang": "INFORMAÇÕES DE CONTATO"
+						}
+					},
+					{
+						"first-name": {
+							"fr-lang": "Prénom",
+							"eng-lang": "First name",
+							"ar-lang": "الاسم الأول",
+							"pt-lang": "Primeiro nome"
+						}
+					},
+					{
+						"last-name": {
+							"fr-lang": "Nom de famille",
+							"eng-lang": "Last name",
+							"ar-lang": "الكنية",
+							"pt-lang": "Último nome"
+						}
+					},
+					{
+						"email": {
+							"fr-lang": "E-mail",
+							"eng-lang": "Email",
+							"ar-lang": "بريد الالكتروني",
+							"pt-lang": "O email"
+						}
+					},
+					{
+						"confirm-email": {
+							"fr-lang": "Confirmez votre email",
+							"eng-lang": "Confirm email",
+							"ar-lang": "تأكيد عنوان البريد الإلكتروني",
+							"pt-lang": "Confirm email"
+						}
+					},
+					{
+						"telephone-number-1": {
+							"fr-lang": "Numéro de téléphone 1",
+							"eng-lang": "Telephone number 1",
+							"ar-lang": "رقم الهاتف 1",
+							"pt-lang": "Número de telefone 1"
+						}
+					},
+					{
+						"telephone-number-2": {
+							"fr-lang": "Numéro de téléphone 2",
+							"eng-lang": "Telephone number 2",
+							"ar-lang": "رقم الهاتف 2",
+							"pt-lang": "Número de telefone 2"
+						}
+					},
+					{
+						"job-title": {
+							"fr-lang": "Profession",
+							"eng-lang": "Job title",
+							"ar-lang": "عنوان وظيفي",
+							"pt-lang": "Cargo"
+						}
+					},
+					{
+						"job-category": {
+							"fr-lang": "Catégorie d'emploi",
+							"eng-lang": "Job category",
+							"ar-lang": "تصنيف الوظيفة",
+							"pt-lang": "Categoria de Emprego"
+						}
+					},
+					{
+						"language": {
+							"fr-lang": "Langue",
+							"eng-lang": "Language",
+							"ar-lang": "لغة",
+							"pt-lang": "Língua"
+						}
+					},
+					{
+						"gender": {
+							"fr-lang": "Genre",
+							"eng-lang": "Gender",
+							"ar-lang": "جنس تذكير أو تأنيث",
+							"pt-lang": "Gênero"
+						}
+					},
+					{
+						"date-of-birth": {
+							"fr-lang": "Date de naissance",
+							"eng-lang": "Date of birth",
+							"ar-lang": "تاريخ الولادة",
+							"pt-lang": "Data de nascimento"
+						}
+					},
+					{
+						"organization": {
+							"fr-lang": "ORGANISATION",
+							"eng-lang": "ORGANIZATION",
+							"ar-lang": "منظمة",
+							"pt-lang": "ORGANIZAÇÃO"
+						}
+					},
+					{
+						"organization-name": {
+							"fr-lang": "Nom de l'organisation",
+							"eng-lang": "Organization name",
+							"ar-lang": "اسم المنظمة",
+							"pt-lang": "Nome da organização"
+						}
+					},
+					{
+						"organization-type": {
+							"fr-lang": "Type d'Organisation",
+							"eng-lang": "Organization type",
+							"ar-lang": "نوع المنظمة",
+							"pt-lang": "Tipo de organização"
+						}
+					},
+					{
+						"organization-website": {
+							"fr-lang": "Site Web de l'organisation",
+							"eng-lang": "Organization Website",
+							"ar-lang": "موقع المنظمة",
+							"pt-lang": "site da organização"
+						}
+					},
+					{
+						"industry": {
+							"fr-lang": "Industrie",
+							"eng-lang": "Industry",
+							"ar-lang": "صناعة",
+							"pt-lang": "Indústria"
+						}
+					},
+					{
+						"country": {
+							"fr-lang": "Pays",
+							"eng-lang": "Country",
+							"ar-lang": "دولة",
+							"pt-lang": "País"
+						}
+					},
+					{
+						"city": {
+							"fr-lang": "Ville",
+							"eng-lang": "City",
+							"ar-lang": "مدينة",
+							"pt-lang": "cidade"
+						}
+					},
+					{
+						"select": {
+							"fr-lang": "Sélectionner",
+							"eng-lang": "Select",
+							"ar-lang": "يختار",
+							"pt-lang": "Selecione"
+						}
+					},
+					{
+						"for-other-please-specify": {
+							"fr-lang": "Pour les autres - merci de préciser",
+							"eng-lang": "For other - please specify",
+							"ar-lang": "لغير ذلك - يرجى التحديد",
+							"pt-lang": "Para outro - especifique"
+						}
+					},
+					{
+						"what-are-your-objectives-for-attending-this-congress?": {
+							"fr-lang": "QUELS SONT VOS OBJECTIFS POUR PARTICIPER À CE CONGRÈS ?",
+							"eng-lang": "WHAT ARE YOUR OBJECTIVES FOR ATTENDING THIS CONGRESS?",
+							"ar-lang": "ما هي أهدافك من حضور هذا المؤتمر؟",
+							"pt-lang": "QUAIS SÃO OS SEUS OBJETIVOS PARA PARTICIPAR DESTE CONGRESSO?"
+						}
+					},
+					{
+						"first-objective": {
+							"fr-lang": "Premier objectif",
+							"eng-lang": "First objective",
+							"ar-lang": "الهدف الأول",
+							"pt-lang": "Primeiro objetivo"
+						}
+					},
+					{
+						"second-objective": {
+							"fr-lang": "Deuxième objectif",
+							"eng-lang": "Second objective",
+							"ar-lang": "الهدف الثاني",
+							"pt-lang": "Segundo objetivo"
+						}
+					},
+					{
+						"third-objective": {
+							"fr-lang": "Troisième objectif",
+							"eng-lang": "Third objective",
+							"ar-lang": "الهدف الثالث",
+							"pt-lang": "Terceiro objetivo"
+						}
+					},
+					{
+						"where-did-you-hear-about-apac?": {
+							"fr-lang": "OÙ AVEZ-VOUS ENTENDU APAC?",
+							"eng-lang": "WHERE DID YOU HEAR ABOUT APAC?",
+							"ar-lang": "أين سمعت آسيا والمحيط الهادئ؟",
+							"pt-lang": "ONDE VOCÊ OUVIU APAC?"
+						}
+					},
+					{
+						"select-source": {
+							"fr-lang": "Sélectionner la source",
+							"eng-lang": "Select source",
+							"ar-lang": "اختر مصدر",
+							"pt-lang": "Selecione a fonte"
+						}
+					},
+					{
+						"badge-collection-identification": {
+							"fr-lang": "IDENTIFICATION DE LA COLLECTION DE BADGES",
+							"eng-lang": "BADGE COLLECTION IDENTIFICATION",
+							"ar-lang": "تحديد مجموعة الشارات",
+							"pt-lang": "IDENTIFICAÇÃO DE COLETA DE EMBLEMAS"
+						}
+					},
+					{
+						"type-of-id-document": {
+							"fr-lang": "Type de pièce d'identité",
+							"eng-lang": "Type of ID document",
+							"ar-lang": "نوع وثيقة الهوية",
+							"pt-lang": "Tipo de documento de identidade"
+						}
+					},
+					{
+						"document-number": {
+							"fr-lang": "Numéro de document",
+							"eng-lang": "Document Number",
+							"ar-lang": "رقم المستند",
+							"pt-lang": "Número do documento"
+						}
+					},
+					{
+						"create-password": {
+							"fr-lang": "CRÉER UN MOT DE PASSE",
+							"eng-lang": "CREATE PASSWORD",
+							"ar-lang": "إنشاء كلمة المرور",
+							"pt-lang": "CRIAR SENHA"
+						}
+					},
+					{
+						"password": {
+							"fr-lang": "Mot de passe",
+							"eng-lang": "Password",
+							"ar-lang": "كلمه السر",
+							"pt-lang": "Senha"
+						}
+					},
+					{
+						"confirm-password": {
+							"fr-lang": "Confirmez le mot de passe",
+							"eng-lang": "Confirm Password",
+							"ar-lang": "تأكيد كلمة المرور",
+							"pt-lang": "Confirm Password"
+						}
+					},
+					{
+						"enter": {
+							"fr-lang": "Entrer",
+							"eng-lang": "Enter",
+							"ar-lang": "يدخل",
+							"pt-lang": "Digitar"
+						}
+					},
+					{
+						"enter-your": {
+							"fr-lang": "Entrer votre",
+							"eng-lang": "Enter your",
+							"ar-lang": "ادخل",
+							"pt-lang": "Insira o seu"
+						}
+					},
+					{
+						"accommodation": {
+							"fr-lang": "HÉBERGEMENT",
+							"eng-lang": "ACCOMMODATION",
+							"ar-lang": "الإقامة",
+							"pt-lang": "ALOJAMENTO"
+						}
+					},
+					{
+						"yes": {
+							"fr-lang": "Oui",
+							"eng-lang": "Yes",
+							"ar-lang": "نعم",
+							"pt-lang": "sim"
+						}
+					},
+					{
+						"no": {
+							"fr-lang": "Non",
+							"eng-lang": "No",
+							"ar-lang": "لا",
+							"pt-lang": "Não"
+						}
+					},
+					{
+						"type-the-captcha-characters-here": {
+							"fr-lang": "Tapez les caractères captcha ici",
+							"eng-lang": "Type the captcha characters here",
+							"ar-lang": "اكتب أحرف captcha هنا",
+							"pt-lang": "Digite os caracteres do captcha aqui"
+						}
+					},
+					{
+						"type-the-captcha-characters-you-see": {
+							"fr-lang": "Tapez les caractères captcha que vous voyez",
+							"eng-lang": "Type the captcha characters you see",
+							"ar-lang": "اكتب أحرف الكابتشا التي تراها",
+							"pt-lang": "Digite os caracteres de captcha que você vê"
+						}
+					},
+					{
+						"submit": {
+							"fr-lang": "Soumettre",
+							"eng-lang": "Submit",
+							"ar-lang": "يقدم",
+							"pt-lang": "Enviar"
+						}
+					},
+					{
+						"education-institute": {
+							"fr-lang": "INSTITUT D'ÉDUCATION",
+							"eng-lang": "EDUCATION INSTITUTE",
+							"ar-lang": "معهد التعليم",
+							"pt-lang": "INSTITUTO DE EDUCAÇÃO"
+						}
+					},
+					{
+						"name-of-school": {
+							"fr-lang": "Le nom de l'école",
+							"eng-lang": "Name of school",
+							"ar-lang": "اسم المدرسة",
+							"pt-lang": "Nome da escola"
+						}
+					},
+					{
+						"category": {
+							"fr-lang": "Categorie",
+							"eng-lang": "Category",
+							"ar-lang": "فئة",
+							"pt-lang": "Categoria"
+						}
+					},
+					{
+						"website": {
+							"fr-lang": "Site Internet",
+							"eng-lang": "Website",
+							"ar-lang": "موقع الكتروني",
+							"pt-lang": "Local na rede Internet"
+						}
+					},
+					{
+						"registration-form": {
+							"fr-lang": "Formulaire d'inscription",
+							"eng-lang": "Registration Form",
+							"ar-lang": "إستمارة تسجيل",
+							"pt-lang": "Formulário de registro"
+						}
+					},
+					{
+						"please": {
+							"fr-lang": "Veuillez",
+							"eng-lang": "Please",
+							"ar-lang": "لو سمحت",
+							"pt-lang": "Por favor"
+						}
+					},
+					{
+						"enter-your-objective": {
+							"fr-lang": "Entrez votre objectif",
+							"eng-lang": "Enter your objective",
+							"ar-lang": "أدخل هدفك",
+							"pt-lang": "Entrez votre objectif"
+						}
+					},
+					{
+						"select-source": {
+							"fr-lang": "Sélectionner la source",
+							"eng-lang": "Select source",
+							"ar-lang": "اختر مصدر",
+							"pt-lang": "Selecione a fonte"
+						}
+					},
+					{
+						"would-you-like-to-receive-information-on-accommodation-booking-in-kigali?": {
+							"fr-lang": "Souhaitez-vous recevoir des informations sur la réservation d'un hébergement à Kigali ?",
+							"eng-lang": "Would you like to receive information on accommodation booking in Kigali?",
+							"ar-lang": "هل ترغب في الحصول على معلومات حول حجز الإقامة في كيغالي؟",
+							"pt-lang": "Gostaria de receber informações sobre reservas de alojamento em Kigali?"
+						}
+					},
+					{
+						"form-by-clicking-you-agree-terms-conditions": {
+							"fr-lang": "En cliquant sur ce bouton, je choisis de ne pas partager mon nom, mon titre et mon affiliation avec les sponsors de l'APAC.",
+							"eng-lang": "By clicking this button I choose to opt out of sharing my name, title and affiliation with APAC sponsors. ",
+							"ar-lang": "بالنقر فوق هذا الزر ، أختار إلغاء الاشتراك في مشاركة اسمي ولقبي وانتمائي مع رعاة APAC.",
+							"pt-lang": "Ao clicar neste botão, opto por não compartilhar meu nome, cargo e afiliação com os patrocinadores da APAC."
+						}
+					},
+					{
+						"content-media": {
+							"fr-lang": "Médias",
+							"eng-lang": "Media",
+							"ar-lang": "وسائط",
+							"pt-lang": "meios de comunicação"
+						}
+					},
+					{
+						"media": {
+							"fr-lang": "Médias",
+							"eng-lang": "Media",
+							"ar-lang": "وسائط",
+							"pt-lang": "meios de comunicação"
+						}
+					},
+					{
+						"content-local-cbos": {
+							"fr-lang": "OCB locaux",
+							"eng-lang": "Local CBOs",
+							"ar-lang": "منظمات المجتمع المحلي المحلية",
+							"pt-lang": "CBOs locais"
+						}
+					},
+					{
+						"media-category": {
+							"fr-lang": "Catégorie média",
+							"eng-lang": "Media category",
+							"ar-lang": "فئة الوسائط",
+							"pt-lang": "Categoria de mídia"
+						}
+					},
+					{
+						"press-card-number": {
+							"fr-lang": "Numéro de carte de presse",
+							"eng-lang": "Press card number",
+							"ar-lang": "اضغط على رقم البطاقة",
+							"pt-lang": "Pressione o número do cartão"
+						}
+					},
+					{
+						"issuing-authority": {
+							"fr-lang": "Autorité de délivrance",
+							"eng-lang": "Issuing authority",
+							"ar-lang": "سلطة الإصدار",
+							"pt-lang": "Autoridade emissora"
+						}
+					},
+					{
+						"equipment": {
+							"fr-lang": "équipement",
+							"eng-lang": "equipment",
+							"ar-lang": "معدات",
+							"pt-lang": "equipamento"
+						}
+					},
+					{
+						"tools": {
+							"fr-lang": "OUTILS",
+							"eng-lang": "TOOLS",
+							"ar-lang": "أدوات",
+							"pt-lang": "FERRAMENTAS"
+						}
+					},
+					{
+						"list-of-equipment-to-be-brought": {
+							"fr-lang": "Liste du matériel à apporter",
+							"eng-lang": "List of equipment to be brought",
+							"ar-lang": "قائمة المعدات التي سيتم إحضارها",
+							"pt-lang": "Lista de equipamentos a serem trazidos"
+						}
+					},
+					{
+						"eg:-camera,-microphone": {
+							"fr-lang": "Par exemple : appareil photo, microphone",
+							"eng-lang": "Eg: Camera, Microphone",
+							"ar-lang": "على سبيل المثال: الكاميرا والميكروفون",
+							"pt-lang": "Por exemplo: câmera, microfone"
+						}
+					},
+					{
+						"eg.-sessions-cover,": {
+							"fr-lang": "par exemple. Couverture des séances,",
+							"eng-lang": "eg. Sessions cover,",
+							"ar-lang": "على سبيل المثال تغطية الجلسات ،",
+							"pt-lang": "por exemplo. Capa das sessões,"
+						}
+					},
+					{
+						"successful-registration": {
+							"fr-lang": "Inscription Réussie",
+							"eng-lang": "Successful Registration",
+							"ar-lang": "تسجيل ناجح",
+							"pt-lang": "registro bem sucedido"
+						}
+					},
+					{
+						"content-notification-success": {
+							"fr-lang": "Merci pour votre inscription. Nous reviendrons sous peu.<br> En attendant, veuillez prendre une minute pour nous suivre<br> sur nos comptes de réseaux sociaux :",
+							"eng-lang": "Thank you for your registration. We will revert shortly.<br> In the meantime, please take a minute to follow us<br> on our social media accounts:",
+							"ar-lang": "نشكرك على التسجيل. سنعود بعد قليل. <br> في غضون ذلك ، يرجى تخصيص دقيقة لمتابعتنا <br> على حسابات وسائل التواصل الاجتماعي الخاصة بنا:",
+							"pt-lang": "Obrigado por sua inscrição. Nós voltaremos em breve. <br> Enquanto isso, reserve um minuto para nos seguir <br> em nossas contas de mídia social:"
+						}
+					},
+					{
+						"content-title-partner-sponsors": {
+							"fr-lang": "Partenaires / Commanditaires",
+							"eng-lang": "Partners / Sponsors",
+							"ar-lang": "الشركاء / الرعاة",
+							"pt-lang": "Partnerzy / Sponsorzy"
+						}
+					},
+					{
+						"no-partners-yet": {
+							"fr-lang": "Pas encore de partenaires",
+							"eng-lang": "No partners yet",
+							"ar-lang": "لا يوجد شركاء حتى الآن",
+							"pt-lang": "Ainda sem parceiros"
+						}
+					},
+					{
+						"": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"": {
+							"fr-lang": "",
+							"eng-lang": "",
+							"ar-lang": "",
+							"pt-lang": ""
+						}
+					},
+					{
+						"terms-conditions": {
+							"fr-lang": "Termes et Conditions",
+							"eng-lang": "Terms and Conditions",
+							"ar-lang": "البنود و الظروف",
+							"pt-lang": "termos e Condições"
+						}
+					},
+					{
+						"privancy-policy": {
+							"fr-lang": "Politique de confidentialité",
+							"eng-lang": "Privacy Policy",
+							"ar-lang": "سياسة خاصة",
+							"pt-lang": "Política de Privacidade"
+						}
+					},
+					{
+						"powered-by": {
+							"fr-lang": "Propulsépar",
+							"eng-lang": "Powered by",
+							"ar-lang": "مشغل بواسطة",
+							"pt-lang": "Distribuído por"
+						}
+					},
+					{
+						"footer-string": {
+							"fr-lang": "@Copyright 2020. CNS Software ~  Powered by CNS Company",
+							"eng-lang": "@Copyright 2020. CNS Software ~ Powered by CNS Company"
+						}
+					}
+				]
+			}

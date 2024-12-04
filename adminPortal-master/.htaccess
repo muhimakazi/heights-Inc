@@ -1,0 +1,177 @@
+#Options +FollowSymLinks
+
+Options -Indexes
+
+RewriteEngine On
+# RewriteBase / thefuture
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(css|js|fonts|images|plugins)($|/) - [L]
+
+#-----------------------------------------------#
+# Set API page
+#-----------------------------------------------#
+
+RewriteRule ^api/v1/participants/([a-zA-Z]+)$ source/webservices/WSParticipant.php?resource=$1 [L]
+RewriteRule ^api/v1/fieldcategory/([a-zA-Z]+)$ source/webservices/forms/WSFormFieldCategory.php?resource=$1 [L]
+RewriteRule ^api/v1/fields/([a-zA-Z]+)$ source/webservices/forms/WSFormField.php?resource=$1 [L]
+RewriteRule ^api/v1/fields/([a-zA-Z]+)/([a-zA-Z0-9]+)$ source/webservices/forms/WSFormField.php?resource=$1&action=$2 [L]
+
+RewriteRule ^api/v1/test/([a-zA-Z]+)$ source/webservices/WSTest.php?resource=$1 [L]
+#-----------------------------------------------#
+
+# Set The Mail page
+#-----------------------------------------------#
+RewriteRule ^mail_smtp(/*)$ config/mail/mails/smtp.php
+RewriteRule ^mail_smtp1(/*)$ config/mail/mails/smtp1.php
+RewriteRule ^notifications/mailling(/*)$ source/mail/mails/smtp.php
+
+
+# Set Admin page
+RewriteRule ^accounts/admin$ pages/accounts/admin.php [L]
+RewriteRule ^accounts/client$ pages/accounts/clients.php [L]
+RewriteRule ^accounts/new_client$ pages/accounts/new_client.php [L]
+RewriteRule ^accounts/changepassword$ pages/accounts/changepassword.php [L]
+RewriteRule ^resetpassword/([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$	resetpassword.php?user_token=$1&user_code=$2 [L]
+RewriteRule ^api/authentication$ pages/accounts/login_action.php [L]
+
+# Dashboard
+RewriteRule ^dashboard$ index.php [L]
+
+# Set Events page
+RewriteRule ^events/list$ pages/events/list.php [L]
+RewriteRule ^events/new$ pages/events/new.php [L]
+
+# Set The form page
+RewriteRule ^register/invitation/([0-9a-zA-Z]+)$	private_registration.php?form=$1 [L]
+RewriteRule ^register/([0-9a-zA-Z]+)$	register.php?form=$1 [L]
+RewriteRule ^registration/event/([a-z]+)/([0-9]+)$	register.php?form=$2&event_type=$1 [L] 
+RewriteRule ^register/$ register.php?form=$1 [L]
+RewriteRule ^registration$ forms/register_action.php [L]
+RewriteRule ^language$ forms/register_action.php [L]
+
+#-----------------------------------------------#
+# Set The Mail page
+#-----------------------------------------------#
+RewriteRule ^mail_smtp(/*)$ config/mail/mails/smtp.php
+RewriteRule ^mail_smtp_noreply(/*)$  config/mail/mails/smtp_noreply.php
+
+
+# Set Badge page
+RewriteRule ^accreditation/badge/([0-9a-zA-Z]+)$  pages/accreditation/badge.php?authtoken_=$1 [L]
+RewriteRule ^accreditation/badge$  pages/accreditation/badge.php [L]
+
+# Set the website content pages
+RewriteRule ^content/logo$ pages/content/logo.php [L]
+RewriteRule ^content/banner$ pages/content/banner.php [L]
+RewriteRule ^content/about$ pages/content/about.php [L]
+RewriteRule ^content/countdown$ pages/content/countdown.php [L]
+RewriteRule ^content/quote$ pages/content/quote.php [L]
+RewriteRule ^content/why_attend$ pages/content/why_attend.php [L]
+RewriteRule ^content/outcomes$ pages/content/outcomes.php [L]
+RewriteRule ^content/speakers$ pages/content/speakers.php [L]
+RewriteRule ^content/partners$ pages/content/partners.php [L]
+RewriteRule ^content/program/([^/]+)$ pages/content/program.php?day=$1 [L]
+
+# Set Payment page
+RewriteRule ^payments/list$ pages/payments/list.php [L]
+
+# Set Participant page
+RewriteRule ^participants/list$ pages/participants/list.php [L]
+RewriteRule ^participants/export_delegates$ pages/participants/export_delegates.php [L]
+RewriteRule ^participants/profile/([0-9]+)$ pages/participants/profile.php?participantToken=$1 [L]
+
+# Set Payment page
+RewriteRule ^pass/type$ pages/pass/type.php [L]
+RewriteRule ^pass/subtype$ pages/pass/subtype.php [L]
+
+#Set Accreditation page
+RewriteRule ^accreditation/list$ pages/accreditation/list.php [L]
+RewriteRule ^accreditation/scan$ pages/accreditation/scan.php [L]
+RewriteRule ^attendance/list$ pages/attendance/list.php [L]
+
+#Set private link page
+RewriteRule ^link/list$ pages/link/list.php [L]
+
+#Set promo code page
+RewriteRule ^promo/list$ pages/promo/list.php [L]
+
+# Set Hotels
+RewriteRule ^hotel/list$ pages/hotel/hotel.php [L]
+RewriteRule ^hotel/room$ pages/hotel/room.php [L]
+RewriteRule ^hotel/booking$ pages/hotel/booking.php [L]
+RewriteRule ^hotel/export_bookings$ pages/hotel/export_bookings.php [L]
+
+# Set Forms
+RewriteRule ^form/list$ pages/form/form.php [L]
+RewriteRule ^form/build/([0-9a-zA-Z]+)$  pages/form/build.php?formToken=$1 [L]
+
+RewriteRule ^exhibitors/list/([^/]+)$ pages/exhibitors/list.php?eventId=$1 [L]
+RewriteRule ^exhibitors/exhibitor/([^/]+)$ pages/exhibitors/exhibitor.php?exhibitorId=$1 [L]
+
+RewriteRule ^visit_exhibition/([^/]+)$ visit_exhibition.php?url=$1 [L]
+
+RewriteRule ^content/partnership/([^/]+)$ pages/content/partnership.php?eventId=$1 [L]
+
+RewriteRule ^accreditation/all/([^/]+)$ pages/accreditation/all.php?eventId=$1&participationTypeToken=all [L]
+RewriteRule ^accreditation/([0-9]+)/([^/]+)$ pages/accreditation/all.php?eventId=$2&participationTypeToken=$1 [L]
+
+RewriteRule ^accreditation$ pages/accreditation/all.php [L]
+
+
+RewriteRule ^del/pic/(.*)$ https://admin.torusguru.com/data_system/img/profile/$1 [L,R=301]
+
+
+RewriteRule ^attendance/all/([^/]+)$ pages/attendance/all.php?eventId=$1&participationTypeToken=all [L]
+
+# Set the group pages
+RewriteRule ^group/list$  pages/groups/group_list.php [L]
+RewriteRule ^group/new_group$  pages/groups/new_group.php [L]
+RewriteRule ^group/delegates$ pages/groups/group_delegates.php [L]
+RewriteRule ^group/delegates/([^/]+)/([^/]+)$ pages/groups/group_delegates.php?eventId=$1&groupId=$2 [L]
+RewriteRule ^group/delegates/registration/links/([^/]+)$ pages/groups/link.php?eventId=$1 [L]
+RewriteRule ^group/delegates/registration/links/([^/]+)/([^/]+)$ pages/groups/link.php?eventId=$1&groupId=$2 [L]
+
+RewriteRule ^group/dashboard$  pages/groups/dashboard.php [L]
+RewriteRule ^group/profile/$ pages/groups/profile.php [L]
+RewriteRule ^group/register$ pages/groups/register_delegates.php [L]
+RewriteRule ^group/register/new/delegate/([^/]+)$ pages/groups/new_delegate.php?slot=$1 [L]
+RewriteRule ^group/register/invite/delegate/([^/]+)/([^/]+)$ pages/groups/invite_delegate.php?slot=$1&groupId=$2 [L]
+
+# SET TEMPLATE FORMS
+RewriteRule ^api/template/form$ template/form/form_action.php [L]
+
+# SET TEMPLATE REGISTRATION
+RewriteRule ^api/template/registration$ template/registration/registration_action.php [L]
+
+# SET TEMPLATE HOTEL
+RewriteRule ^api/hotel/booking$ template/hotel/hotel_action.php [L]
+
+#-----------------------------------------------#
+# Set Images Path
+#-----------------------------------------------#
+RewriteRule ^media/pictures/profile/(.*)(/*)$ data_system/img/profile/$1
+RewriteRule ^media/pictures/id/(.*)$ data_system/img/profile/$1
+RewriteRule ^media/docs/iplc/(.*)(/*)$ data_system/img/iplc/$1
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+ErrorDocument 404 /404
+ErrorDocument 500 /404
+ErrorDocument 403 /404
+# IndexIgnore *
+
+<Files ^(*.jpeg|*.jpg|*.png|*.gif|*.pdf)>
+order deny,allow
+deny from all
+</Files>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^sub_directory/(.*)$ /$1 [R=301,NC,L]
+</IfModule>

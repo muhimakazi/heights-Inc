@@ -1,0 +1,32 @@
+#Options +FollowSymLinks
+
+Options -Indexes
+
+RewriteEngine On
+# RewriteBase /admin
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Set The form page
+RewriteRule ^booking/([0-9a-zA-Z]+)$	booking.php?hotel=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+ErrorDocument 404 /404
+ErrorDocument 500 /404
+ErrorDocument 403 /404
+# IndexIgnore *
+
+<Files ^(*.jpeg|*.jpg|*.png|*.gif|*.pdf)>
+order deny,allow
+deny from all
+</Files>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^sub_directory/(.*)$ /$1 [R=301,NC,L]
+</IfModule>

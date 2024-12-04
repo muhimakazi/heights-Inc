@@ -1,0 +1,126 @@
+#Options +FollowSymLinks
+
+RewriteEngine On
+# RewriteBase / thefuture
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(css|js|fonts|images|plugins)($|/) - [L]
+
+#-----------------------------------------------#
+# Set API page
+#-----------------------------------------------#
+RewriteRule ^api/v1/report/([a-zA-Z]+)(/*)$ source/webservices/WSReport.php?resource=$1
+
+#-----------------------------------------------#
+
+#-----------------------------------------------#
+# Set API page
+#-----------------------------------------------#
+RewriteRule ^api/v1/report/([a-zA-Z]+)(/*)$ source/webservices/WSReport.php?resource=$1
+RewriteRule ^api/v1/mail/([a-zA-Z]+)(/*)$ source/webservices/WSMail.php?resource=$1
+RewriteRule ^api/v1/attendance/([a-zA-Z]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)(/*)$ source/webservices/WSAttendance.php?resource=$1&event=$2&participant=$3
+RewriteRule ^api/v1/numbers/([a-zA-Z]+)$ source/webservices/WSNumbers.php?resource=$1
+#-----------------------------------------------#
+
+# Set The Mail page
+#-----------------------------------------------#
+RewriteRule ^mail_smtp(/*)$ config/mail/mails/smtp.php
+RewriteRule ^mail_smtp1(/*)$ config/mail/mails/smtp1.php
+
+# Set The form page
+RewriteRule ^register/invitation/([0-9a-zA-Z]+)$	private_registration.php?form=$1 [L]
+RewriteRule ^register/([0-9a-zA-Z]+)$	register.php?form=$1 [L]
+RewriteRule ^registration/event/([a-z]+)/([0-9]+)$	register.php?form=$2&event_type=$1 [L] 
+RewriteRule ^register/$ register.php?form=$1 [L]
+RewriteRule ^registration$ forms/register_action.php [L]
+RewriteRule ^language$ forms/register_action.php [L]    
+
+#-----------------------------------------------#
+# Set The Mail page
+#-----------------------------------------------#
+RewriteRule ^mail_smtp(/*)$ config/mail/mails/smtp.php
+RewriteRule ^mail_smtp_noreply(/*)$  config/mail/mails/smtp_noreply.php
+
+
+# Set Payment page
+RewriteRule ^ebadge/([0-9a-zA-Z]+)$	badge.php?authtoken_=$1 [L] 
+RewriteRule ^ebadge/([0-9a-zA-Z]+)$	badge.php?authtoken_=$1 [L] 
+RewriteRule ^participant/ebadge/([0-9a-zA-Z]+)$	badge.php?authtoken_=$1 [L] 
+
+# Set Payment page
+RewriteRule ^payment/([0-9a-zA-Z]+)$	paymentmethod.php?authtoken_=$1 [L] 
+
+# Set the website content pages
+RewriteRule ^pages/content/link/([^/]+)$ pages/content/link.php?eventId=$1 [L]
+RewriteRule ^pages/content/attedence/type/([^/]+)$ pages/content/attendence_type.php?eventId=$1 [L]
+RewriteRule ^pages/content/attedence/subtype/([^/]+)$ pages/content/attendance_subtype.php?eventId=$1 [L]
+RewriteRule ^pages/content/banner/([^/]+)$ pages/content/banner.php?eventId=$1 [L]
+RewriteRule ^pages/content/about/([^/]+)$ pages/content/about.php?eventId=$1 [L]
+RewriteRule ^pages/content/countdown/([^/]+)$ pages/content/countdown.php?eventId=$1 [L]
+RewriteRule ^pages/content/quote/([^/]+)$ pages/content/quote.php?eventId=$1 [L]
+RewriteRule ^pages/content/why_attend/([^/]+)$ pages/content/why_attend.php?eventId=$1 [L]
+RewriteRule ^pages/content/outcomes/([^/]+)$ pages/content/outcomes.php?eventId=$1 [L]
+RewriteRule ^pages/content/speakers/([^/]+)$ pages/content/speakers.php?eventId=$1 [L]
+RewriteRule ^pages/content/partners/([^/]+)$ pages/content/partners.php?eventId=$1 [L]
+RewriteRule ^pages/content/program/([^/]+)/([^/]+)$ pages/content/program.php?eventId=$1&day=$2 [L]
+
+RewriteRule ^pages/payments/all/([^/]+)$ pages/payments/all.php?eventId=$1&participationTypeToken=all [L]
+RewriteRule ^pages/payments/([0-9]+)/([^/]+)$ pages/payments/all.php?eventId=$2&participationTypeToken=$1 [L]
+RewriteRule ^pages/payments/([0-9]+)/([0-9]+)/([^/]+)$ pages/payments/all.php?eventId=$3&participationTypeToken=$2&participationSubTypeToken=$1 [L]
+RewriteRule ^pages/payments/profile/([0-9]+)$ pages/payments/profile.php?participantToken=$1 [L]
+
+RewriteRule ^pages/reports/all/([^/]+)$ pages/reports/all.php?eventId=$1 [L]
+
+RewriteRule ^pages/participants/all/([^/]+)$ pages/participants/all.php?eventId=$1&participationTypeToken=all [L]
+RewriteRule ^pages/participants/([0-9]+)/([^/]+)$ pages/participants/all.php?eventId=$2&participationTypeToken=$1 [L]
+RewriteRule ^pages/participants/([0-9]+)/([0-9]+)/([^/]+)$ pages/participants/all.php?eventId=$3&participationTypeToken=$2&participationSubTypeToken=$1 [L]
+RewriteRule ^pages/participants/profile/([0-9]+)$ pages/participants/profile.php?participantToken=$1 [L]
+RewriteRule ^pages/accounts/export_client/([^/]+)$ pages/accounts/export_client.php?clientId=$1 [L]
+
+RewriteRule ^pages/exhibitors/list/([^/]+)$ pages/exhibitors/list.php?eventId=$1 [L]
+RewriteRule ^pages/exhibitors/exhibitor/([^/]+)$ pages/exhibitors/exhibitor.php?exhibitorId=$1 [L]
+
+RewriteRule ^visit_exhibition/([^/]+)$ visit_exhibition.php?url=$1 [L]
+
+RewriteRule ^pages/content/partnership/([^/]+)$ pages/content/partnership.php?eventId=$1 [L]
+
+RewriteRule ^pages/participants/export_delegates/([^/]+)$ pages/participants/export_delegates.php?eventId=$1 [L]
+
+RewriteRule ^pages/accreditation/all/([^/]+)$ pages/accreditation/all.php?eventId=$1&participationTypeToken=all [L]
+RewriteRule ^pages/accreditation/([0-9]+)/([^/]+)$ pages/accreditation/all.php?eventId=$2&participationTypeToken=$1 [L]
+
+RewriteRule ^accreditation$ pages/accreditation/all.php [L]
+
+# Set the website content pages groups
+RewriteRule ^pages/group/list/([^/]+)$  pages/groups/group_list.php?eventId=$1 [L]
+RewriteRule ^pages/group/delegates/([^/]+)$ pages/groups/group_delegates.php?eventId=$1 [L]
+RewriteRule ^pages/group/delegates/([^/]+)/([^/]+)$ pages/groups/group_delegates.php?eventId=$1&groupId=$2 [L]
+RewriteRule ^pages/group/delegates/registration/links/([^/]+)$ pages/groups/link.php?eventId=$1 [L]
+RewriteRule ^pages/group/delegates/registration/links/([^/]+)/([^/]+)$ pages/groups/link.php?eventId=$1&groupId=$2 [L]
+
+#-----------------------------------------------#
+# Set Images Path
+#-----------------------------------------------#
+RewriteRule ^media/pictures/profile/(.*)(/*)$ data_system/img/profile/$1
+RewriteRule ^media/pictures/id/(.*)$ data_system/img/profile/$1
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+# ErrorDocument 404 /404
+# ErrorDocument 500 /404
+# IndexIgnore *
+
+<Files ^(*.jpeg|*.jpg|*.png|*.gif|*.pdf)>
+order deny,allow
+deny from all
+</Files>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^sub_directory/(.*)$ /$1 [R=301,NC,L]
+</IfModule>
