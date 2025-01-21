@@ -1,0 +1,15 @@
+/* animations.css */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* Start below the normal position */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at the normal position */
+  }
+}
+
+.animate-bottom {
+  animation: slideUp 4s ease-out forwards;
+}
