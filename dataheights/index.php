@@ -45,7 +45,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <!-- Logo -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index">
         <img src="images/logo.png" alt="Logo">
       </a>
       <!-- Navbar Toggler -->
@@ -56,19 +56,19 @@
       <div class="collapse navbar-collapse" id="navbarNav" style=" flex-grow: 0!important;">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link active" href="index">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="solution.html">Solution</a>
+            <a class="nav-link" href="solution">Solution</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="industries.html">Industries</a>
+            <a class="nav-link" href="industries">Industries</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -85,8 +85,8 @@
                 <h2 class="slide-title" data-animation-in="slideInLeft">DATAHEIGHTS INC LTD</h2>
                 <h3 class="slide-sub-title" data-animation-in="slideInRight">Empower IT Excellence</h3>
                 <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                    <a href="solution.html" class="slider btn btn-primary">Our Services</a>
-                    <a href="contact.html" class="slider btn btn-primary border">Contact Now</a>
+                    <a href="solution" class="slider btn btn-primary">Our Services</a>
+                    <a href="contact" class="slider btn btn-primary border">Contact Now</a>
                 </p>
               </div>
           </div>
@@ -102,8 +102,8 @@
                 <h2 class="slide-title" data-animation-in="slideInLeft">DATAHEIGHTS INC LTD</h2>
                 <h3 class="slide-sub-title" data-animation-in="slideInRight">Elevate Digital Solutions</h3>
                 <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                    <a href="services.html" class="slider btn btn-primary">Our Services</a>
-                    <a href="contact.html" class="slider btn btn-primary border">Contact Now</a>
+                    <a href="services" class="slider btn btn-primary">Our Services</a>
+                    <a href="contact" class="slider btn btn-primary border">Contact Now</a>
                 </p>
               </div>
           </div>
@@ -230,7 +230,7 @@
       <div class="col-lg-4">
         <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
-                <img loading="lazy" src="images/icon-image/service-icon1.png" alt="service-icon" style="width: 100%;">
+                <img loading="lazy" src="images/icon-image/icon_one.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title  animate-bottom"><a href="#">Data Center Solutions</a></h3>
@@ -241,7 +241,7 @@
       <div class="col-lg-4">
         <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
-                <img loading="lazy" src="images/icon-image/service-icon2.png" alt="service-icon" style="width: 100%;">
+                <img loading="lazy" src="images/icon-image/icon_two.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title  animate-bottom"><a href="#">IT Security and Compliance</a></h3>
@@ -252,7 +252,7 @@
       <div class="col-lg-4">
         <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
-                <img loading="lazy" src="images/icon-image/service-icon1.png" alt="service-icon3"style="width: 100%;">
+                <img loading="lazy" src="images/icon-image/icon_three.png" alt="service-icon3">
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title animate-bottom"><a href="#">Managed IT Services</a></h3>
@@ -265,7 +265,7 @@
       <div class="col-lg-4">
         <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
-                <img loading="lazy" src="images/icon-image/service-icon4.png" alt="service-icon" style="width: 100%;">
+                <img loading="lazy" src="images/icon-image/icon_four.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title animate-bottom"><a href="#">Cybersecurity</a></h3>
@@ -276,7 +276,7 @@
       <div class="col-lg-4">
         <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
-                <img loading="lazy" src="images/icon-image/service-icon5.png" alt="service-icon" style="width: 100%;">
+                <img loading="lazy" src="images/icon-image/icon_five.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title  animate-bottom"><a href="#">Scalable Network Solutions</a></h3>
@@ -287,7 +287,7 @@
       <div class="col-lg-4">
         <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
-                <img loading="lazy" src="images/icon-image/service-icon6.png" alt="service-icon" style="width: 100%;">
+                <img loading="lazy" src="images/icon-image/icon_six.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title  animate-bottom"><a href="#">Enterprise Networking</a></h3>
@@ -300,7 +300,7 @@
       <div class="col-lg-4">
         <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
-                <img loading="lazy" src="images/icon-image/service-icon7.png" alt="service-icon" style="width: 100%;">
+                <img loading="lazy" src="images/icon-image/icon_seven.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title animate-bottom"><a href="#">Cloud technologies</a></h3>
@@ -311,7 +311,7 @@
       <div class="col-lg-4">
         <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
-                <img loading="lazy" src="images/icon-image/service-icon8.png" alt="service-icon" style="width: 100%;">
+                <img loading="lazy" src="images/icon-image/icon_eight.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title animate-bottom"><a href="#">IT Consulting Services</a></h3>
@@ -322,7 +322,7 @@
       <div class="col-lg-4">
         <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
-                <img loading="lazy" src="images/icon-image/service-icon9.png" alt="service-icon" style="width: 100%;">
+                <img loading="lazy" src="images/icon-image/icon_nine.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title animate-bottom"><a href="#">Virtualization, Storage Design & Deployment</a></h3>
@@ -452,8 +452,7 @@
           <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
             <h3 class="widget-title">Working Hours</h3>
             <div class="working-hours">
-              We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
-              Hotline and Contact form.<br><br>
+              We work 7 days a week, every day excluding major holidays. Feel free to contact us for emergencies or collaboration via the email and phone number provided below.<br><br>
                <b>KG 622 St, Fair View Building, 4th Floor</b>
                <br><b>Kigali, Rwanda</b>
               <br><b>Email: sales@dataheightsinc.com</b>
@@ -479,20 +478,20 @@
           <div class="col-md-6">
             <div class="footer-menu text-center text-md-right">
               <ul class="list-unstyled">
-                <li><a href="about.html">About</a></li>
-                <li><a href="solution.html">solution</a></li>
-                <li><a href="industries.html">Industries</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="solution">solution</a></li>
+                <li><a href="industries">Industries</a></li>
+                <li><a href="contact">Contact Us</a></li>
               </ul>
             </div>
           </div>
         </div><!-- Row end -->
 
-        <!--<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
+        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
           <button class="btn btn-primary" title="Back to Top">
             <i class="fa fa-angle-double-up"></i>
           </button>
-        </div>-->
+        </div>
         <!-- Chatbot -->
 
       </div><!-- Container end -->

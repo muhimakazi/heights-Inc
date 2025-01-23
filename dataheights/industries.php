@@ -42,7 +42,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <!-- Logo -->
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index">
         <img src="images/logo.png" alt="Logo">
       </a>
       <!-- Navbar Toggler -->
@@ -53,38 +53,38 @@
       <div class="collapse navbar-collapse" id="navbarNav" style=" flex-grow: 0!important;">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link " href="index.html">Home</a>
+            <a class="nav-link " href="index">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="solution.html">Solution</a>
+            <a class="nav-link" href="solution">Solution</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="industries.html">Industries</a>
+            <a class="nav-link active" href="industries">Industries</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 <!--/ Header end -->
-<div id="banner-area" class="banner-area" style="background-image:url(images/contact.png)">
+<div id="banner-area" class="banner-area" style="background-image:url(images/industries_banner.png)">
   <div class="banner-text">
     <div class="container">
         <div class="row">
           <div class="col-lg-12">
               <div class="banner-heading">
-                <h1 class="banner-title">CONTACT US TODAY FOR A FREECONSULTATION</h1>
+                <h1 class="banner-title">Industries</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                      <li class="breadcrumb-item"><a href="about.html">About</a></li>
-                      <li class="breadcrumb-item"><a href="solution.html">Solution</a></li>
-                      <li class="breadcrumb-item"><a href="industries.html">Industries</a></li>
+                      <li class="breadcrumb-item"><a href="index">Home</a></li>
+                      <li class="breadcrumb-item"><a href="about">About</a></li>
+                      <li class="breadcrumb-item"><a href="solution">Solution</a></li>
+                      <li class="breadcrumb-item"><a href="contact">Contact Us</a></li>
                     </ol>
                 </nav>
               </div>
@@ -126,61 +126,118 @@
 
 <section id="main-container" class="main-container">
   <div class="container">
-
-    <div class="row text-center">
-      <div class="col-12">
-        <h2 class="section-title">Reaching our Office</h2>
-        <h3 class="section-sub-title">Find Our Location</h3>
-      </div>
-    </div>
-    <!--/ Title row end -->
-
     <div class="row">
-      <div class="col-md-4">
-        <div class="ts-service-box-bg text-center h-100">
-          <span class="ts-service-icon icon-round">
-            <i class="fas fa-map-marker-alt mr-0"></i>
-          </span>
-          <div class="ts-service-box-content">
-            <h4>KG 622 St, Fair View Building, 4th Floor.</h4>
-            <p>Kigali, Rwanda</p>
-          </div>
-        </div>
-      </div><!-- Col 1 end -->
+      <div class="col-12">
+        <div class="shuffle-btn-group">
+          <label class="active" for="all">
+            <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Show All
+          </label>
+        </div><!-- project filter end -->
 
-      <div class="col-md-4">
-        <div class="ts-service-box-bg text-center h-100">
-          <span class="ts-service-icon icon-round">
-            <i class="fa fa-envelope mr-0"></i>
-          </span>
-          <div class="ts-service-box-content">
-            <h4>Email Us</h4>
-            <p>sales@dataheightsinc.com</p>
-          </div>
-        </div>
-      </div><!-- Col 2 end -->
 
-      <div class="col-md-4">
-        <div class="ts-service-box-bg text-center h-100">
-          <span class="ts-service-icon icon-round">
-            <i class="fa fa-phone-square mr-0"></i>
-          </span>
-          <div class="ts-service-box-content">
-            <h4>Call Us</h4>
-            <p>+250788312685</p>
-          </div>
-        </div>
-      </div><!-- Col 3 end -->
+        <div class="row shuffle-wrapper">
+          <div class="col-1 shuffle-sizer"></div>
 
-    </div><!-- 1st row end -->
+          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/one.webp">
+                <img class="img-fluid" src="images/one.webp" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="">Health & Life Sciences</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 1 end -->
 
-    <div class="gap-60"></div>
+          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;healthcare&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/two.webpg">
+                <img class="img-fluid" src="images/two.webp" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="">Financial Services</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 2 end -->
 
-    <!--<div class="google-map">
-      <div id="map" class="map" data-latitude="40.712776" data-longitude="-74.005974" data-marker="images/marker.png" data-marker-name="Constra"></div>
-    </div>-->
+          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/three.jpg">
+                <img class="img-fluid" src="images/three.jpg" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="">Retail & Consumer Goods</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 3 end -->
 
-    <div class="gap-40"></div>
+          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/four.webp">
+                <img class="img-fluid" src="images/four.webp" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="">Technology & Telecommunication</a>
+                  </h3>
+                  <p class="project-cat">Infrastructure</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 4 end -->
+
+          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/five.png">
+                <img class="img-fluid" src="images/five.png" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="">Travel & Tourism</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 5 end -->
+
+          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;residential&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/six.png">
+                <img class="img-fluid" src="images/six.png" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="">Government & Non-profits</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 6 end -->
+        </div><!-- shuffle end -->
+      </div>
+    </div><!-- Content row end -->
+
   </div><!-- Conatiner end -->
 </section><!-- Main container end -->
 
@@ -217,8 +274,7 @@
           <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
             <h3 class="widget-title">Working Hours</h3>
             <div class="working-hours">
-              We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
-              Hotline and Contact form.<br><br>
+              We work 7 days a week, every day excluding major holidays. Feel free to contact us for emergencies or collaboration via the email and phone number provided below.<br><br>
                <b>KG 622 St, Fair View Building, 4th Floor</b>
                <br><b>Kigali, Rwanda</b>
               <br><b>Email: sales@dataheightsinc.com</b>
@@ -244,20 +300,20 @@
           <div class="col-md-6">
             <div class="footer-menu text-center text-md-right">
               <ul class="list-unstyled">
-                <li><a href="about.html">About</a></li>
-                <li><a href="solution.html">solution</a></li>
-                <li><a href="industries.html">Industries</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="solution">solution</a></li>
+                <li><a href="industries">Industries</a></li>
+                <li><a href="contact">Contact Us</a></li>
               </ul>
             </div>
           </div>
         </div><!-- Row end -->
 
-        <!--<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
+        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
           <button class="btn btn-primary" title="Back to Top">
             <i class="fa fa-angle-double-up"></i>
           </button>
-        </div>-->
+        </div>
         <!-- Chatbot -->
        <!-- Chatbot Button -->
       </div><!-- Container end -->
@@ -292,5 +348,4 @@
 
   </div><!-- Body inner end -->
   </body>
-
 </html>

@@ -38,13 +38,11 @@
 </head>
 <body>
   <div class="body-inner">
-
-<!-- Header start -->
 <!-- Header start -->
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <!-- Logo -->
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index">
         <img src="images/logo.png" alt="Logo">
       </a>
       <!-- Navbar Toggler -->
@@ -55,38 +53,38 @@
       <div class="collapse navbar-collapse" id="navbarNav" style=" flex-grow: 0!important;">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link " href="index.html">Home</a>
+            <a class="nav-link " href="index">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="about.html">About Us</a>
+            <a class="nav-link" href="about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="solution.html">Solution</a>
+            <a class="nav-link" href="solution">Solution</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="industries.html">Industries</a>
+            <a class="nav-link" href="industries">Industries</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link active" href="contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 <!--/ Header end -->
-<!--/ Header end -->
-<div id="banner-area" class="banner-area" style="background-image:url(images/banner/about.jpg)">
+<div id="banner-area" class="banner-area" style="background-image:url(images/contact.png)">
   <div class="banner-text">
     <div class="container">
         <div class="row">
           <div class="col-lg-12">
               <div class="banner-heading">
-                <h1 class="banner-title">About</h1>
+                <h1 class="banner-title">CONTACT US TODAY FOR A FREECONSULTATION</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                      <li class="breadcrumb-item"><a href="about.html">About Us</a></li>
-                      <li class="breadcrumb-item"><a href="contact.html">Contact Us</a></li>
+                      <li class="breadcrumb-item"><a href="index">Home</a></li>
+                      <li class="breadcrumb-item"><a href="about">About</a></li>
+                      <li class="breadcrumb-item"><a href="solution">Solution</a></li>
+                      <li class="breadcrumb-item"><a href="industries">Industries</a></li>
                     </ol>
                 </nav>
               </div>
@@ -96,43 +94,26 @@
   </div><!-- Banner text end -->
 </div><!-- Banner area end --> 
 
-<section id="main-container" class="main-container">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-          <h3 class="column-title">Who We Are</h3>
-          <p>DATAHEIGHTSINC Ltd is a leading Information Technology company renowned for offering an extensive range of products, applications, solutions, and consulting services across various IT industries. We are dedicated to meeting the diverse and evolving IT infrastructure needs of businesses in both local and international markets. With a commitment to delivering top-tier technology solutions, we tailor our services to address the unique challenges and requirements of each client, ensuring that they remain competitive in a rapidly advancing digital world.</p>
-
-            <p>Our team is composed of highly skilled and certified professionals who bring a wealth of experience in key areas such as IT infrastructure, data center operations, network security, and deployment. We leverage this expertise to design, implement, and manage customized solutions that optimize business performance, enhance operational efficiency, and safeguard critical data. Our professionals stay up-to-date with the latest industry trends and best practices, ensuring that our solutions are always innovative, secure, and future-proof.</p>
-
-          <p>At DATAHEIGHTSINC Ltd, we understand that technology is an integral part of a company's growth, and we take pride in being a trusted partner in helping businesses achieve their goals through cutting-edge IT solutions. Whether it's managing complex IT systems, improving network security, or providing expert consulting services, our team is committed to providing the highest level of support to drive success for our clients. With our deep industry knowledge and hands-on experience, we ensure that businesses can seamlessly navigate the complexities of the modern IT landscape while maximizing their potential for growth and innovation.</p>
-
-        </div><!-- Col end -->
-    </div><!-- Content row end -->
-
-  </div><!-- Container end -->
-</section><!-- Main container end -->
 <section class="help solid-bg">
   <div class="container">
     <div class="row">
-        <div class="col-lg-6">
+      <div class="col-lg-6">
           <!--<h3 class="section-sub-title">Clients</h3>-->
-          <div class="clients animate-bottom">
-              <p class=" animate-bottom" style="font-size: 40px;line-height: 1.2;">Is your business ready to adapt and grow in the digital world?</p>
-              <p class="animate-bottom">
-                Our local teams are already working hard to shape the future of business. Reach out to us and let's explore how we can work together to innovate and transform your industry for a brighter tomorrow. We're here to help your business evolve and succeed in a fast-changing world.
-              </p>
-              <a href="contact.html" class="slider btn btn-primary border" style="background-color: #ffde59;color: #000;">Contact Now</a>
+          <div class="clients">
+              <figure class="clients-logo">
+                    <a href="#!"><img loading="lazy" class="img-fluid  animate-bottom" src="images/industries.png" alt="clients-logo" /></a>
+              </figure>
               <!--/ Item 1 end -->
           </div>
           <!--/ Testimonial carousel end-->
         </div><!-- Col end -->
         <div class="col-lg-6">
           <!--<h3 class="section-sub-title">Clients</h3>-->
-          <div class="clients">
-              <figure class="clients-logo">
-                    <a href="#!"><img loading="lazy" class="img-fluid  animate-bottom" src="images/help.png" alt="clients-logo" /></a>
-              </figure>
+          <div class="clients animate-bottom">
+              <p class=" animate-bottom" style="font-size: 40px;line-height: 1.2;">Is No Challenge Is Too Complex</p>
+              <p class="animate-bottom">
+               Regardless of the industry, we bring extensive expertise and a value-driven approach to empower ambitious leaders with a competitive digital edge. By leveraging innovative, proprietary methods, we gain deeper insights into customer needs and expectations. This allows us to craft impactful, tailored solutions designed to drive meaningful change and deliver long-lasting, sustainable results that help businesses thrive in an ever-evolving digital landscape.
+              </p>
               <!--/ Item 1 end -->
           </div>
           <!--/ Testimonial carousel end-->
@@ -143,7 +124,67 @@
   <!--/ Container end -->
 </section><!-- Content end -->
 
-  <footer id="footer" class="footer">
+<section id="main-container" class="main-container">
+  <div class="container">
+
+    <div class="row text-center">
+      <div class="col-12">
+        <h2 class="section-title">Reaching our Office</h2>
+        <h3 class="section-sub-title">Find Our Location</h3>
+      </div>
+    </div>
+    <!--/ Title row end -->
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="ts-service-box-bg text-center h-100">
+          <span class="ts-service-icon icon-round">
+            <i class="fas fa-map-marker-alt mr-0"></i>
+          </span>
+          <div class="ts-service-box-content">
+            <h4>KG 622 St, Fair View Building, 4th Floor.</h4>
+            <p>Kigali, Rwanda</p>
+          </div>
+        </div>
+      </div><!-- Col 1 end -->
+
+      <div class="col-md-4">
+        <div class="ts-service-box-bg text-center h-100">
+          <span class="ts-service-icon icon-round">
+            <i class="fa fa-envelope mr-0"></i>
+          </span>
+          <div class="ts-service-box-content">
+            <h4>Email Us</h4>
+            <p>sales@dataheightsinc.com</p>
+          </div>
+        </div>
+      </div><!-- Col 2 end -->
+
+      <div class="col-md-4">
+        <div class="ts-service-box-bg text-center h-100">
+          <span class="ts-service-icon icon-round">
+            <i class="fa fa-phone-square mr-0"></i>
+          </span>
+          <div class="ts-service-box-content">
+            <h4>Call Us</h4>
+            <p>+250788312685</p>
+          </div>
+        </div>
+      </div><!-- Col 3 end -->
+
+    </div><!-- 1st row end -->
+
+    <div class="gap-60"></div>
+
+    <!--<div class="google-map">
+      <div id="map" class="map" data-latitude="40.712776" data-longitude="-74.005974" data-marker="images/marker.png" data-marker-name="Constra"></div>
+    </div>-->
+
+    <div class="gap-40"></div>
+  </div><!-- Conatiner end -->
+</section><!-- Main container end -->
+
+ <footer id="footer" class="footer">
     <div class="footer-main">
       <div class="container">
         <div class="row justify-content-between">
@@ -176,8 +217,7 @@
           <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
             <h3 class="widget-title">Working Hours</h3>
             <div class="working-hours">
-              We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
-              Hotline and Contact form.<br><br>
+              We work 7 days a week, every day excluding major holidays. Feel free to contact us for emergencies or collaboration via the email and phone number provided below.<br><br>
                <b>KG 622 St, Fair View Building, 4th Floor</b>
                <br><b>Kigali, Rwanda</b>
               <br><b>Email: sales@dataheightsinc.com</b>
@@ -203,20 +243,20 @@
           <div class="col-md-6">
             <div class="footer-menu text-center text-md-right">
               <ul class="list-unstyled">
-                <li><a href="about.html">About</a></li>
-                <li><a href="solution.html">solution</a></li>
-                <li><a href="industries.html">Industries</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="solution">solution</a></li>
+                <li><a href="industries">Industries</a></li>
+                <li><a href="contact">Contact Us</a></li>
               </ul>
             </div>
           </div>
         </div><!-- Row end -->
 
-        <!--<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
+        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
           <button class="btn btn-primary" title="Back to Top">
             <i class="fa fa-angle-double-up"></i>
           </button>
-        </div>-->
+        </div>
         <!-- Chatbot -->
        <!-- Chatbot Button -->
       </div><!-- Container end -->
@@ -251,4 +291,5 @@
 
   </div><!-- Body inner end -->
   </body>
+
 </html>

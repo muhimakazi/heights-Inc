@@ -1,0 +1,48 @@
+#Options +FollowSymLinks
+
+Options -Indexes
+
+RewriteEngine On
+# RewriteBase /admin
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Set The form page
+RewriteRule ^register/([0-9a-zA-Z]+)$	register.php?form=$1 [L]
+RewriteRule ^register/$ register.php?form=$1 [L]
+RewriteRule ^rsvp/([a-zA-Z]+)/([0-9a-zA-Z]+)$	register.php?form=$1&userToken=$2 [L]
+RewriteRule ^notification/([0-9a-zA-Z]+)$	notification.php [L]
+
+
+RewriteRule ^event/([0-9a-zA-Z]+)$	event.php?event=$1 [L]
+RewriteRule ^event/$ event.php?form=$1 [L]
+
+RewriteRule ^language$ forms/register_action.php [L]
+RewriteRule ^cubenew/img/black_logo.png$ img/black_logo.png [L]
+
+RewriteRule ^img/$	index.php [L]
+RewriteRule ^map$	img/map.png [L]
+
+# Set Registration API Url
+RewriteRule ^ctrl/master/api$	adminSystem/api/web_register_action.php [L]
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+ErrorDocument 404 /404
+ErrorDocument 500 /404
+ErrorDocument 403 /404
+# IndexIgnore *
+
+<Files ^(*.jpeg|*.jpg|*.png|*.gif|*.pdf)>
+order deny,allow
+deny from all
+</Files>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^sub_directory/(.*)$ /$1 [R=301,NC,L]
+</IfModule>

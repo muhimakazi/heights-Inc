@@ -43,7 +43,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <!-- Logo -->
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index">
         <img src="images/logo.png" alt="Logo">
       </a>
       <!-- Navbar Toggler -->
@@ -54,26 +54,26 @@
       <div class="collapse navbar-collapse" id="navbarNav" style=" flex-grow: 0!important;">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link " href="index.html">Home</a>
+            <a class="nav-link " href="index">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="about.html">About Us</a>
+            <a class="nav-link " href="about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="solution.html">Solution</a>
+            <a class="nav-link active" href="solution">Solution</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="industries.html">Industries</a>
+            <a class="nav-link" href="industries">Industries</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 <!--/ Header end -->
-<div id="banner-area" class="banner-area" style="background-image:url(images/services.jpg)">
+<div id="banner-area" class="banner-area" style="background-image:url(images/service.png)">
   <div class="banner-text">
     <div class="container">
         <div class="row">
@@ -82,9 +82,9 @@
                 <h1 class="banner-title"> Our Solution</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                      <li class="breadcrumb-item"><a href="about.html">About Us</a></li>
-                      <li class="breadcrumb-item"><a href="contact.html">Contact Us</a></li>
+                      <li class="breadcrumb-item"><a href="index">Home</a></li>
+                      <li class="breadcrumb-item"><a href="about">About Us</a></li>
+                      <li class="breadcrumb-item"><a href="contact">Contact Us</a></li>
                       <li class="breadcrumb-item active" aria-current="page">All Services</li>
                     </ol>
                 </nav>
@@ -250,8 +250,7 @@
           <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
             <h3 class="widget-title">Working Hours</h3>
             <div class="working-hours">
-              We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
-              Hotline and Contact form.<br><br>
+              We work 7 days a week, every day excluding major holidays. Feel free to contact us for emergencies or collaboration via the email and phone number provided below.<br><br>
                <b>KG 622 St, Fair View Building, 4th Floor</b>
                <br><b>Kigali, Rwanda</b>
               <br><b>Email: sales@dataheightsinc.com</b>
@@ -277,20 +276,20 @@
           <div class="col-md-6">
             <div class="footer-menu text-center text-md-right">
               <ul class="list-unstyled">
-                <li><a href="about.html">About</a></li>
-                <li><a href="solution.html">solution</a></li>
-                <li><a href="industries.html">Industries</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="solution">solution</a></li>
+                <li><a href="industries">Industries</a></li>
+                <li><a href="contact">Contact Us</a></li>
               </ul>
             </div>
           </div>
         </div><!-- Row end -->
 
-        <!--<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
+        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
           <button class="btn btn-primary" title="Back to Top">
             <i class="fa fa-angle-double-up"></i>
           </button>
-        </div>-->
+        </div>
         <!-- Chatbot -->
        <!-- Chatbot Button -->
       </div><!-- Container end -->
