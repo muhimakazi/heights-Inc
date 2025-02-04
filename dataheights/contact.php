@@ -59,20 +59,20 @@
             <a class="nav-link" href="about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="solution">Solution</a>
+            <a class="nav-link" href="solution">Solutions</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="industries">Industries</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="contact">Contact</a>
+            <a class="nav-link active" href="contact">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 <!--/ Header end -->
-<div id="banner-area" class="banner-area" style="background-image:url(images/contact.png)">
+<div id="banner-area" class="banner-area" style="background-image:url(images/contact_us.png)">
   <div class="banner-text">
     <div class="container">
         <div class="row">
@@ -94,36 +94,6 @@
   </div><!-- Banner text end -->
 </div><!-- Banner area end --> 
 
-<section class="help solid-bg">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-          <!--<h3 class="section-sub-title">Clients</h3>-->
-          <div class="clients">
-              <figure class="clients-logo">
-                    <a href="#!"><img loading="lazy" class="img-fluid  animate-bottom" src="images/industries.png" alt="clients-logo" /></a>
-              </figure>
-              <!--/ Item 1 end -->
-          </div>
-          <!--/ Testimonial carousel end-->
-        </div><!-- Col end -->
-        <div class="col-lg-6">
-          <!--<h3 class="section-sub-title">Clients</h3>-->
-          <div class="clients animate-bottom">
-              <p class=" animate-bottom" style="font-size: 40px;line-height: 1.2;">Is No Challenge Is Too Complex</p>
-              <p class="animate-bottom">
-               Regardless of the industry, we bring extensive expertise and a value-driven approach to empower ambitious leaders with a competitive digital edge. By leveraging innovative, proprietary methods, we gain deeper insights into customer needs and expectations. This allows us to craft impactful, tailored solutions designed to drive meaningful change and deliver long-lasting, sustainable results that help businesses thrive in an ever-evolving digital landscape.
-              </p>
-              <!--/ Item 1 end -->
-          </div>
-          <!--/ Testimonial carousel end-->
-        </div><!-- Col end -->
-    </div>
-    <!--/ Content row end -->
-  </div>
-  <!--/ Container end -->
-</section><!-- Content end -->
-
 <section id="main-container" class="main-container">
   <div class="container">
 
@@ -142,8 +112,15 @@
             <i class="fas fa-map-marker-alt mr-0"></i>
           </span>
           <div class="ts-service-box-content">
+            <h1 style="color: #fff;font-size: 24px;">Rwanda Office:</h1>
             <h4>KG 622 St, Fair View Building, 4th Floor.</h4>
             <p>Kigali, Rwanda</p>
+          </div>
+          <hr style="border-top: 3px solid #ffb600; /* Blue border */">
+          <div class="ts-service-box-content">
+            <h1 style="color: #fff;font-size: 24px;">Canada Office:</h1>
+            <h4>5153 Nestling Grove Rd Mississauga.</h4>
+            <p>Toronto Area, Canada</p>
           </div>
         </div>
       </div><!-- Col 1 end -->
@@ -155,7 +132,7 @@
           </span>
           <div class="ts-service-box-content">
             <h4>Email Us</h4>
-            <p>sales@dataheightsinc.com</p>
+            <p> <a href="https://mail.google.com/mail/u/0/"> sales@dataheightsinc.com </a></p>
           </div>
         </div>
       </div><!-- Col 2 end -->
@@ -166,6 +143,13 @@
             <i class="fa fa-phone-square mr-0"></i>
           </span>
           <div class="ts-service-box-content">
+            <h1 style="color: #fff;font-size: 24px;">Rwanda Office:</h1>
+            <h4>Call Us</h4>
+            <p>+250788312685</p>
+          </div>
+          <hr style="border-top: 3px solid #ffb600; /* Blue border */">
+          <div class="ts-service-box-content">
+            <h1 style="color: #fff;font-size: 24px;">Canada Office:</h1>
             <h4>Call Us</h4>
             <p>+250788312685</p>
           </div>
@@ -184,47 +168,35 @@
   </div><!-- Conatiner end -->
 </section><!-- Main container end -->
 
- <footer id="footer" class="footer">
+<footer id="footer" class="footer">
     <div class="footer-main">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-4 col-md-6 footer-widget footer-about">
-            <h3 class="widget-title  animate-bottom">About Us</h3>
-            <!--<img loading="lazy" width="200px" class="footer-logo" src="images/footer-logo.png" alt="Constra">-->
-            <p class=" animate-bottom"><b>DATAHEIGHTSINC Ltd</b> is a leading IT company offering products, solutions, and consulting services. With local and global expertise, we provide tailored IT solutions to meet businesses' needs. Our team of certified professionals specializes in IT infrastructure, data centers, and security.</p>
-            <div class="footer-social">
-              <ul>
-                <li><a href="" aria-label="Facebook"><i
-                      class="fab fa-facebook-f"></i></a></li>
-                <li><a href="" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li><a href="" aria-label="Instagram"><i
-                      class="fab fa-instagram"></i></a></li>
-                <!--<li><a href="" aria-label="Github"><i class="fab fa-github"></i></a></li>-->
-              </ul>
-            </div><!-- Footer social end -->
-          </div><!-- Col end -->
-          <div class="col-lg-3 col-md-6 footer-widget mt-5 mt-md-0">
-            <h3 class="widget-title">Services</h3>
-            <ul class="list-arrow">
-              <li><a href="">Data Center Solutions</a></li>
-              <li><a href="">IT Security and Compliance</a></li>
-              <li><a href="">Managed IT Services</a></li>
-              <li><a href="">Cybersecurity</a></li>
-              <li><a href="">Scalable Network Solutions</a></li>
-            </ul>
+          <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+            <h3 class="widget-title">About Us</h3>
+            <p>DATAHEIGHTSINC Ltd is a leading IT company providing cutting-edge solutions, applications, and consulting services.</p>
           </div><!-- Col end -->
           <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
-            <h3 class="widget-title">Working Hours</h3>
+            <h3 class="widget-title">Rwanda Office – Contact:</h3>
             <div class="working-hours">
-              We work 7 days a week, every day excluding major holidays. Feel free to contact us for emergencies or collaboration via the email and phone number provided below.<br><br>
+              
                <b>KG 622 St, Fair View Building, 4th Floor</b>
                <br><b>Kigali, Rwanda</b>
               <br><b>Email: sales@dataheightsinc.com</b>
               <br><b> Phone: +250788312685</b>
               <br>
             </div>
-          </div><!-- Col end -->
+          </div><!-- Col end --><!-- Col end -->
+          <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+            <h3 class="widget-title">Canada Office – Contact:</h3>
+            <div class="working-hours">
+               <b>5153 Nestling Grove Rd Mississauga</b>
+               <br><b>Toronto Area, Canada</b>
+              <br><b>Email: sales@dataheightsinc.com</b>
+              <br><b> Phone: +250788312685</b>
+              <br>
+            </div>
+          </div><!-- Col end --><!-- Col end -->
         </div><!-- Row end -->
       </div><!-- Container end -->
     </div><!-- Footer main end -->
@@ -244,7 +216,7 @@
             <div class="footer-menu text-center text-md-right">
               <ul class="list-unstyled">
                 <li><a href="about">About</a></li>
-                <li><a href="solution">solution</a></li>
+                <li><a href="solution">Solutions</a></li>
                 <li><a href="industries">Industries</a></li>
                 <li><a href="contact">Contact Us</a></li>
               </ul>
@@ -258,7 +230,7 @@
           </button>
         </div>
         <!-- Chatbot -->
-       <!-- Chatbot Button -->
+
       </div><!-- Container end -->
     </div><!-- Copyright end -->
   </footer><!-- Footer end -->

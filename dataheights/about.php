@@ -61,13 +61,13 @@
             <a class="nav-link active" href="about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="solution">Solution</a>
+            <a class="nav-link" href="solution">Solutions</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="industries">Industries</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact">Contact</a>
+            <a class="nav-link" href="contact">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -75,7 +75,7 @@
   </nav>
 <!--/ Header end -->
 <!--/ Header end -->
-<div id="banner-area" class="banner-area" style="background-image:url(images/banner/about.png)">
+<div id="banner-area" class="banner-area" style="background-image:url(images/abou.png)">
   <div class="banner-text">
     <div class="container">
         <div class="row">
@@ -103,7 +103,7 @@
           <h3 class="column-title">Who We Are</h3>
           <p>DATAHEIGHTSINC Ltd is a leading Information Technology company renowned for offering an extensive range of products, applications, solutions, and consulting services across various IT industries. We are dedicated to meeting the diverse and evolving IT infrastructure needs of businesses in both local and international markets. With a commitment to delivering top-tier technology solutions, we tailor our services to address the unique challenges and requirements of each client, ensuring that they remain competitive in a rapidly advancing digital world.</p>
 
-            <p>Our team is composed of highly skilled and certified professionals who bring a wealth of experience in key areas such as IT infrastructure, data center operations, network security, and deployment. We leverage this expertise to design, implement, and manage customized solutions that optimize business performance, enhance operational efficiency, and safeguard critical data. Our professionals stay up-to-date with the latest industry trends and best practices, ensuring that our solutions are always innovative, secure, and future-proof.</p>
+          <p>Our team is composed of highly skilled and certified professionals who bring a wealth of experience in key areas such as IT infrastructure, data center operations, network security, and deployment. We leverage this expertise to design, implement, and manage customized solutions that optimize business performance, enhance operational efficiency, and safeguard critical data. Our professionals stay up-to-date with the latest industry trends and best practices, ensuring that our solutions are always innovative, secure, and future-proof.</p>
 
           <p>At DATAHEIGHTSINC Ltd, we understand that technology is an integral part of a company's growth, and we take pride in being a trusted partner in helping businesses achieve their goals through cutting-edge IT solutions. Whether it's managing complex IT systems, improving network security, or providing expert consulting services, our team is committed to providing the highest level of support to drive success for our clients. With our deep industry knowledge and hands-on experience, we ensure that businesses can seamlessly navigate the complexities of the modern IT landscape while maximizing their potential for growth and innovation.</p>
 
@@ -122,7 +122,7 @@
               <p class="animate-bottom">
                 Our local teams are already working hard to shape the future of business. Reach out to us and let's explore how we can work together to innovate and transform your industry for a brighter tomorrow. We're here to help your business evolve and succeed in a fast-changing world.
               </p>
-              <a href="contact.html" class="slider btn btn-primary border" style="background-color: #ffde59;color: #000;">Contact Now</a>
+              <a href="contact" class="slider btn btn-primary border" style="background-color: #ffde59;color: #000;">Contact Now</a>
               <!--/ Item 1 end -->
           </div>
           <!--/ Testimonial carousel end-->
@@ -131,7 +131,7 @@
           <!--<h3 class="section-sub-title">Clients</h3>-->
           <div class="clients">
               <figure class="clients-logo">
-                    <a href="#!"><img loading="lazy" class="img-fluid  animate-bottom" src="images/help.png" alt="clients-logo" /></a>
+                    <a href="#"><img loading="lazy" class="img-fluid  animate-bottom" src="images/help.png" alt="clients-logo" /></a>
               </figure>
               <!--/ Item 1 end -->
           </div>
@@ -147,43 +147,31 @@
     <div class="footer-main">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-4 col-md-6 footer-widget footer-about">
-            <h3 class="widget-title  animate-bottom">About Us</h3>
-            <!--<img loading="lazy" width="200px" class="footer-logo" src="images/footer-logo.png" alt="Constra">-->
-            <p class=" animate-bottom"><b>DATAHEIGHTSINC Ltd</b> is a leading IT company offering products, solutions, and consulting services. With local and global expertise, we provide tailored IT solutions to meet businesses' needs. Our team of certified professionals specializes in IT infrastructure, data centers, and security.</p>
-            <div class="footer-social">
-              <ul>
-                <li><a href="" aria-label="Facebook"><i
-                      class="fab fa-facebook-f"></i></a></li>
-                <li><a href="" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li><a href="" aria-label="Instagram"><i
-                      class="fab fa-instagram"></i></a></li>
-                <!--<li><a href="" aria-label="Github"><i class="fab fa-github"></i></a></li>-->
-              </ul>
-            </div><!-- Footer social end -->
-          </div><!-- Col end -->
-          <div class="col-lg-3 col-md-6 footer-widget mt-5 mt-md-0">
-            <h3 class="widget-title">Services</h3>
-            <ul class="list-arrow">
-              <li><a href="">Data Center Solutions</a></li>
-              <li><a href="">IT Security and Compliance</a></li>
-              <li><a href="">Managed IT Services</a></li>
-              <li><a href="">Cybersecurity</a></li>
-              <li><a href="">Scalable Network Solutions</a></li>
-            </ul>
+          <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+            <h3 class="widget-title">About Us</h3>
+            <p>DATAHEIGHTSINC Ltd is a leading IT company providing cutting-edge solutions, applications, and consulting services.</p>
           </div><!-- Col end -->
           <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
-            <h3 class="widget-title">Working Hours</h3>
+            <h3 class="widget-title">Rwanda Office – Contact:</h3>
             <div class="working-hours">
-              We work 7 days a week, every day excluding major holidays. Feel free to contact us for emergencies or collaboration via the email and phone number provided below.<br><br>
+              
                <b>KG 622 St, Fair View Building, 4th Floor</b>
                <br><b>Kigali, Rwanda</b>
               <br><b>Email: sales@dataheightsinc.com</b>
               <br><b> Phone: +250788312685</b>
               <br>
             </div>
-          </div><!-- Col end -->
+          </div><!-- Col end --><!-- Col end -->
+          <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+            <h3 class="widget-title">Canada Office – Contact:</h3>
+            <div class="working-hours">
+               <b>5153 Nestling Grove Rd Mississauga</b>
+               <br><b>Toronto Area, Canada</b>
+              <br><b>Email: sales@dataheightsinc.com</b>
+              <br><b> Phone: +250788312685</b>
+              <br>
+            </div>
+          </div><!-- Col end --><!-- Col end -->
         </div><!-- Row end -->
       </div><!-- Container end -->
     </div><!-- Footer main end -->
@@ -203,7 +191,7 @@
             <div class="footer-menu text-center text-md-right">
               <ul class="list-unstyled">
                 <li><a href="about">About</a></li>
-                <li><a href="solution">solution</a></li>
+                <li><a href="solution">Solutions</a></li>
                 <li><a href="industries">Industries</a></li>
                 <li><a href="contact">Contact Us</a></li>
               </ul>
@@ -217,7 +205,7 @@
           </button>
         </div>
         <!-- Chatbot -->
-       <!-- Chatbot Button -->
+
       </div><!-- Container end -->
     </div><!-- Copyright end -->
   </footer><!-- Footer end -->
