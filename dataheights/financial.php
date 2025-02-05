@@ -129,7 +129,7 @@
   <div class="container mt-5">
   <div class="row">
     <!-- First Row of 3 Cards -->
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="card" style="background-color: #19586c;border-left: 3px solid #ffb600;">
         <div class="card-body">
           <h5 class="card-title" style="color: #ffb600;">Data Center Solutions</h5>
@@ -137,15 +137,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <div class="card" style="background-color: #19586c;border-left: 3px solid #ffb600;">
-        <div class="card-body">
-          <h5 class="card-title" style="color: #ffb600;">Network Security & Compliance</h5>
-          <p class="card-text" style="color: #fff;">Security is paramount in the financial sector. Our robust network security solutions safeguard your systems against cyber threats while ensuring compliance with industry regulations, such as GDPR and PCI-DSS. We implement advanced encryption, multi-factor authentication, and real-time monitoring to protect sensitive financial data from unauthorized access.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="card" style="background-color: #19586c;border-left: 3px solid #ffb600;">
         <div class="card-body">
           <h5 class="card-title" style="color: #ffb600;">Cloud Solutions & Virtualization</h5>
@@ -153,7 +145,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="card" style="background-color: #19586c;border-left: 3px solid #ffb600;">
         <div class="card-body">
           <h5 class="card-title" style="color: #ffb600;">Risk Management & Disaster Recovery</h5>
@@ -165,7 +157,7 @@
 <br>
   <div class="row">
     <!-- Third Row of 3 Cards -->
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="card" style="background-color: #19586c;border-left: 3px solid #ffb600;">
         <div class="card-body">
           <h5 class="card-title" style="color: #ffb600;">Business Intelligence & Data Analytics</h5>
@@ -173,7 +165,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="card" style="background-color: #19586c;border-left: 3px solid #ffb600;">
         <div class="card-body">
           <h5 class="card-title" style="color: #ffb600;">Regulatory Compliance & Auditing</h5>
@@ -181,19 +173,11 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="card" style="background-color: #19586c;border-left: 3px solid #ffb600;">
         <div class="card-body">
           <h5 class="card-title" style="color: #ffb600;">Fintech Integration & Digital Transformation</h5>
           <p class="card-text" style="color: #fff;">Embrace the future of finance with our fintech solutions. From payment processing systems to mobile banking apps, we offer end-to-end services for digital transformation. Our solutions enable financial institutions to integrate innovative technologies, enhance customer experiences, and drive operational efficiency.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card" style="background-color: #19586c;border-left: 3px solid #ffb600;">
-        <div class="card-body">
-          <h5 class="card-title" style="color: #ffb600;">Consulting & Managed IT Services</h5>
-          <p class="card-text" style="color: #fff;">Our experienced consultants work closely with financial organizations to assess their IT infrastructure and recommend tailored solutions to meet their specific needs. Through managed IT services, we provide ongoing support, maintenance, and monitoring to ensure the smooth operation of your IT systems.</p>
         </div>
       </div>
     </div>

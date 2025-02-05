@@ -179,7 +179,6 @@
           <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
             <h3 class="widget-title">Rwanda Office – Contact:</h3>
             <div class="working-hours">
-              
                <b>KG 622 St, Fair View Building, 4th Floor</b>
                <br><b>Kigali, Rwanda</b>
               <br><b>Email: sales@dataheightsinc.com</b>
